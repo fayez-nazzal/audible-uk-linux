@@ -2,4 +2,4 @@
 
 ![Screenshot](https://tinyurl.com/yb4uaxbu)
 
-### Forked from cross-platform/audible-for-linux
+### Forked from [cross-platform/audible-for-linux](https://github.com/cross-platform/audible-for-linux)
