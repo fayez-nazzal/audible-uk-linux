@@ -16,42 +16,8 @@ else {
 
 // https://audible.custhelp.com/app/answers/detail/a_id/7267/~/what-is-an-audible-marketplace-and-which-is-best-for-me%3F
 
-if (locale == 'CA') {
-  appUrl = 'https://www.audible.ca/library'
-  signInUrl = 'https://www.audible.ca/sign-in'
-}
-else if (locale == 'GB' || locale == 'IE') {
-  appUrl = 'https://www.audible.co.uk/library'
-  signInUrl = 'https://www.audible.co.uk/sign-in'
-}
-else if (locale == 'AU' || locale == 'NZ') {
-  appUrl = 'https://www.audible.com.au/library'
-  signInUrl = 'https://www.audible.com.au/sign-in'
-}
-else if (locale == 'FR') {
-  appUrl = 'https://www.audible.fr/library'
-  signInUrl = 'https://www.audible.fr/sign-in'
-}
-else if (locale == 'DE') {
-  appUrl = 'https://www.audible.de/library'
-  signInUrl = 'https://www.audible.de/sign-in'
-}
-else if (locale == 'JP') {
-  appUrl = 'https://www.audible.co.jp/library'
-  signInUrl = 'https://www.audible.co.jp/sign-in'
-}
-else if (locale == 'IT') {
-  appUrl = 'https://www.audible.it/library'
-  signInUrl = 'https://www.audible.it/sign-in'
-}
-else if (locale == 'IN') {
-  appUrl = 'https://www.audible.in/library'
-  signInUrl = 'https://www.audible.in/sign-in'
-}
-else {
-  appUrl = 'https://www.audible.com/library'
-  signInUrl = 'https://www.audible.com/sign-in'
-}
+appUrl = 'https://www.audible.co.uk/library'
+signInUrl = 'https://www.audible.co.uk/sign-in'
 
 const customCss =
   '.topSlot {display: none !important;}' +
