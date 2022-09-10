@@ -1,5 +1,5 @@
 {
-  "name": "audible-for-linux",
+  "name": "audible-uk-for-linux",
   "author": "Marcus Tomlinson",
   "version": "0.5.0",
   "description": "Audible for Linux",
@@ -12,11 +12,11 @@
     "electronDownload": {
       "mirror": "https://github.com/castlabs/electron-releases/releases/download/v"
     },
-    "appId": "audible-for-linux",
+    "appId": "audible-uk-for-linux",
     "productName": "Audible",
     "linux": {
       "target": "snap",
-      "icon": "audible-for-linux.png",
+      "icon": "audible-uk-for-linux.png",
       "category": "Audio"
     },
     "snap": {
@@ -33,11 +33,11 @@
         "x11"
       ],
       "desktop": {
-        "StartupWMClass": "audible-for-linux"
+        "StartupWMClass": "audible-uk-for-linux"
       }
     }
   },
-  "repository": "https://github.com/cross-platform/audible-for-linux",
+  "repository": "https://github.com/fayez-nazzal/audible-uk-linux",
   "license": "GPL-3.0",
   "devDependencies": {
     "electron": "https://github.com/castlabs/electron-releases#v13.0.1-wvvmp",

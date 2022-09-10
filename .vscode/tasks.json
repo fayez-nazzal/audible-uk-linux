@@ -34,10 +34,10 @@
             "options": {
                 "cwd": "${workspaceFolder}",
             },
-            "command": ["rm -rf ~/snap/audible-for-linux &&",
-                        "snap remove audible-for-linux &&",
-                        "snap install dist/audible-for-linux_0.5.0_amd64.snap --dangerous &&",
-                        "audible-for-linux"],
+            "command": ["rm -rf ~/snap/audible-uk-for-linux &&",
+                        "snap remove audible-uk-for-linux &&",
+                        "snap install dist/audible-uk-for-linux_0.5.0_amd64.snap --dangerous &&",
+                        "audible-uk-for-linux"],
             "group": { "kind": "build", "isDefault": true },
             "problemMatcher": {
                 "base": "$gcc", "fileLocation": ["relative", "${workspaceFolder}"]
